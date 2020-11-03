@@ -1,7 +1,7 @@
 # spotify-legacy-liked-songs-cleaner
 ### Version 0.1
 
-Clean up your liked songs playlist, back from the days where liking an album added all its songs to your liked songs... Was in back in 2015 :D?
+Clean up your liked songs playlist, back from the days where liking an album added all its songs to your liked songs... Was it back in 2015 :D?
 
 
 # Main Features:
