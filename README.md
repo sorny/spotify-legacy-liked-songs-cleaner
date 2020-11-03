@@ -28,7 +28,7 @@ spotify-legacy-liked-songs-cleaner uses open source libs and open data to work p
 ```sh
 pip3 install -r requirements.txt
 ```
-5) Update liked-songs-cleaner.py with client id and client secret of your app
+5) Update `liked-songs-cleaner.py` with client id and client secret of your app
 6) Run the script in dryrun mode
 ```sh
 python3 liked-songs-cleaner.py
