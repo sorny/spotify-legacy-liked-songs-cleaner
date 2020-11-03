@@ -28,17 +28,20 @@ spotify-legacy-liked-songs-cleaner uses open source libs and open data to work p
 ```sh
 pip3 install -r requirements.txt
 ```
-5) Update `liked-songs-cleaner.py` with client id and client secret of your app
+5) Update `liked_songs_cleaner.py` with client id and client secret of your app
 6) Run the script in dryrun mode
 ```sh
-python3 liked-songs-cleaner.py
+python3 liked_songs_cleaner.py
 ```
-7) If you are happy with the outcome of the deleted songs playlist, change `DRYRUN` to `False` and rerun the script to free your liked songs from its legacy
+7) If you are happy with the outcome of the deleted songs playlist, change `DRYRUN` to `False` in `liked_songs_cleaner.py` and rerun the script to free your liked songs from its legacy
 
 
 ### Notes
 
- * When running the script for the first time, your default browser will open and you will be redirected to authorize this script to modify your playlists etc. Good old Oauth2 magic (:
+ * When running the script for the first time, your default browser will open and you will be redirected to authorize this script to modify your playlists. Good old Oauth2 magic (:
+ * Required authorization scops of this script: `user-library-read`, `playlist-modify-private`, `user-library-modify`
+ * For details on the scopes, hit up https://developer.spotify.com/documentation/general/guides/scopes/
+
 
 
 Have fun and use with care, its your precious liked songs you are dealing with.
