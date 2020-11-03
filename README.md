@@ -39,7 +39,7 @@ python3 liked_songs_cleaner.py
 ### Notes
 
  * When running the script for the first time, your default browser will open and you will be redirected to authorize this script to modify your playlists. Good old Oauth2 magic (:
- * Required authorization scops of this script: `user-library-read`, `playlist-modify-private`, `user-library-modify`
+ * Required authorization scopes of this script: `user-library-read`, `playlist-modify-private`, `user-library-modify`
  * For details on the scopes, hit up https://developer.spotify.com/documentation/general/guides/scopes/
 
 
