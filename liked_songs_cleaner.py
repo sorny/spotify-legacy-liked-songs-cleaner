@@ -13,7 +13,7 @@ from tqdm import trange, tqdm
 CLIENT_ID = ""
 CLIENT_SECRET = ""
 REDIRECT_URI = "http://localhost:8888/callback"
-DRYRUN = False
+DRYRUN = True
 
 # setup
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
